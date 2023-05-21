@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "Since the google search did not return any results, I will try searching on specific job boards and company websites that are known to have job postings for software developers with experience in React, Typescript, and Elixir.",
+        "reasoning": "Searching on specific job boards and company websites that are known to have job postings for software developers with experience in React, Typescript, and Elixir will increase the chances of finding relevant job postings.",
+        "plan": "- Search on specific job boards and company websites that are known to have job postings for software developers with experience in React, Typescript, and Elixir\n- Filter out irrelevant job postings\n- Prioritize job postings that are most likely to be a good fit based on experience and desired work environment",
+        "criticism": "I need to ensure that I am searching on the most relevant job boards and company websites to save on short term memory usage.",
+        "speak": "I will search on specific job boards and company websites that are known to have job postings for software developers with experience in React, Typescript, and Elixir, filter out irrelevant job postings, and prioritize job postings that are most likely to be a good fit based on experience and desired work environment."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://stackoverflow.com/jobs",
+            "question": "React Typescript Elixir developer job postings"
+        }
+    }
+}

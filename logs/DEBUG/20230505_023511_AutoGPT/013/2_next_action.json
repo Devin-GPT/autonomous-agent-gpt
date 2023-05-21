@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I will now list the files in the current directory to ensure that the instructions file has been created.",
+        "reasoning": "Listing the files in the current directory will help me ensure that the instructions file has been created.",
+        "plan": "- List the files in the current directory to ensure that the instructions file has been created",
+        "criticism": "I need to make sure that the instructions file has been created correctly and that the information in the file is accurate.",
+        "speak": "I will now list the files in the current directory to ensure that the instructions file has been created."
+    },
+    "command": {
+        "name": "list_files",
+        "args": {
+            "directory": "/app/autogpt/auto_gpt_workspace"
+        }
+    }
+}

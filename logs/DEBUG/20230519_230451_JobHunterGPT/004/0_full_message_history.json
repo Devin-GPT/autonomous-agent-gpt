@@ -1,0 +1,38 @@
+[
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think the first step should be to search for job postings that match the required qualifications and preferences. I can use job boards and company websites for this purpose.\",\n        \"reasoning\": \"Searching for job postings is the first step in finding open positions that match the required qualifications and preferences.\",\n        \"plan\": \"- Search for job postings on job boards and company websites\\n- Filter out irrelevant job postings\\n- Prioritize job postings that are most likely to be a good fit based on experience and desired work environment\",\n        \"criticism\": \"I need to ensure that I am filtering out irrelevant job postings effectively to save on short term memory usage.\",\n        \"speak\": \"I will search for job postings on job boards and company websites, filter out irrelevant job postings, and prioritize job postings that are most likely to be a good fit based on experience and desired work environment.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"React Typescript Elixir developer job postings\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: []"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Since the google search did not return any results, I will try searching on specific job boards and company websites that are known to have job postings for software developers with experience in React, Typescript, and Elixir.\",\n        \"reasoning\": \"Searching on specific job boards and company websites that are known to have job postings for software developers with experience in React, Typescript, and Elixir will increase the chances of finding relevant job postings.\",\n        \"plan\": \"- Search on specific job boards and company websites that are known to have job postings for software developers with experience in React, Typescript, and Elixir\\n- Filter out irrelevant job postings\\n- Prioritize job postings that are most likely to be a good fit based on experience and desired work environment\",\n        \"criticism\": \"I need to ensure that I am searching on the most relevant job boards and company websites to save on short term memory usage.\",\n        \"speak\": \"I will search on specific job boards and company websites that are known to have job postings for software developers with experience in React, Typescript, and Elixir, filter out irrelevant job postings, and prioritize job postings that are most likely to be a good fit based on experience and desired work environment.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://stackoverflow.com/jobs\",\n            \"question\": \"React Typescript Elixir developer job postings\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: (\"Answer gathered from website: The text does not provide information on React Typescript Elixir developer job postings. \\n \\n Links: [' (https://stackoverflow.com/jobs)', '\\\\n\\\\n\\\\n                    Home\\\\n                \\\\n\\\\n (https://stackoverflow.com/)', '\\\\n Questions\\\\n (https://stackoverflow.com/questions)', '\\\\n\\\\n\\\\n                    Tags\\\\n                \\\\n\\\\n (https://stackoverflow.com/tags)', '\\\\n\\\\n\\\\n                    Users\\\\n                \\\\n\\\\n (https://stackoverflow.com/users)']\", <selenium.webdriver.chrome.webdriver.WebDriver (session=\"95091631ffdcfa90c28ff5940b522b53\")>)"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Since the Stack Overflow job board did not have any relevant job postings, I will try searching on other job boards and company websites that are known to have job postings for software developers with experience in React, Typescript, and Elixir.\",\n        \"reasoning\": \"Searching on other job boards and company websites that are known to have job postings for software developers with experience in React, Typescript, and Elixir will increase the chances of finding relevant job postings.\",\n        \"plan\": \"- Search on other job boards and company websites that are known to have job postings for software developers with experience in React, Typescript, and Elixir\\n- Filter out irrelevant job postings\\n- Prioritize job postings that are most likely to be a good fit based on experience and desired work environment\",\n        \"criticism\": \"I need to ensure that I am searching on the most relevant job boards and company websites to save on short term memory usage.\",\n        \"speak\": \"I will search on other job boards and company websites that are known to have job postings for software developers with experience in React, Typescript, and Elixir, filter out irrelevant job postings, and prioritize job postings that are most likely to be a good fit based on experience and desired work environment.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.indeed.com/q-React-Typescript-Elixir-Developer-jobs.html\",\n            \"question\": \"\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: (\"Answer gathered from website: Why might someone see a message about reviewing the security of their connection when trying to access www.indeed.com?\\n\\nThe site occasionally ensures that the connection is secure to prevent requests from malicious bots posing as legitimate traffic. \\n \\n Links: ['Cloudflare (https://www.cloudflare.com?utm_source=challenge&utm_campaign=m)']\", <selenium.webdriver.chrome.webdriver.WebDriver (session=\"935e69a84ec78fe98ac02ead8ee22846\")>)"
+    }
+]

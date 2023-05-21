@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "Since the get_hyperlinks command returned an error, I will try using the browse_website command to extract the job postings.",
+        "reasoning": "Using the browse_website command to extract the job postings will increase the chances of finding relevant job postings.",
+        "plan": "- Use the browse_website command to extract the job postings\n- Filter out irrelevant job postings\n- Prioritize job postings that are most likely to be a good fit based on experience and desired work environment",
+        "criticism": "I need to ensure that I am filtering out irrelevant job postings effectively to save on short term memory usage.",
+        "speak": "I will use the browse_website command to extract the job postings, filter out irrelevant job postings, and prioritize job postings that are most likely to be a good fit based on experience and desired work environment."
+    },
+    "command": {
+        "name": "browse_website",
+        "args": {
+            "url": "https://www.indeed.com/jobs?q=React+Typescript+Elixir+Developer&l=",
+            "question": ""
+        }
+    }
+}

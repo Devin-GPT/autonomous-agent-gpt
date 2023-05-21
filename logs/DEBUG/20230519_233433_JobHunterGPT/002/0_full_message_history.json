@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I think the first step is to conduct a comprehensive search of job boards, company websites, and other relevant sources to identify job postings in Austin. I can use a Google search to find job boards and company websites, and then scrape the websites to extract job postings. I should also save the job postings to a file for future reference.\",\n        \"reasoning\": \"Conducting a comprehensive search of job boards and company websites is the first step in finding relevant job postings in Austin. This will allow me to gather a large amount of data that I can then filter based on the user's preferred industry, job title, and other relevant criteria. Saving the job postings to a file will also allow me to keep track of the data and avoid duplicating my efforts.\",\n        \"plan\": \"- Use a Google search to find job boards and company websites\\n- Scrape the websites to extract job postings\\n- Save the job postings to a file for future reference\",\n        \"criticism\": \"I need to ensure that I am only scraping websites that allow web scraping and that I am not violating any terms of service. I also need to make sure that I am not collecting any personal information that could be used for malicious purposes.\",\n        \"speak\": \"I will conduct a comprehensive search of job boards and company websites to identify job postings in Austin. I will use a Google search to find job boards and company websites, scrape the websites to extract job postings, and save the job postings to a file for future reference.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.google.com/search?q=austin+job+boards+and+company+websites\",\n            \"question\": \"job boards and company websites in Austin\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Human feedback:  texas for software engineer with 5 years experience with react anf typescript and node. then"
+    }
+]

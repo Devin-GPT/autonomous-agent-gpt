@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think the first step should be to search for job postings that match the required qualifications and preferences. I can use job boards and company websites for this purpose.",
+        "reasoning": "Searching for job postings is the first step in finding open positions that match the required qualifications and preferences.",
+        "plan": "- Search for job postings on job boards and company websites\n- Filter out irrelevant job postings\n- Prioritize job postings that are most likely to be a good fit based on experience and desired work environment",
+        "criticism": "I need to ensure that I am filtering out irrelevant job postings effectively to save on short term memory usage.",
+        "speak": "I will search for job postings on job boards and company websites, filter out irrelevant job postings, and prioritize job postings that are most likely to be a good fit based on experience and desired work environment."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "React Typescript Elixir developer job postings"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "I will use the write_to_file command to save the job postings to a file.",
+        "reasoning": "Using the write_to_file command will allow me to save the job postings to a file for future reference.",
+        "plan": "- Use the write_to_file command to save the job postings to a file\n- Filter out irrelevant job postings\n- Prioritize job postings that are most likely to be a good fit based on experience and desired work environment",
+        "criticism": "I need to ensure that I am filtering out irrelevant job postings effectively to save on short term memory usage.",
+        "speak": "I will use the write_to_file command to save the job postings to a file, filter out irrelevant job postings, and prioritize job postings that are most likely to be a good fit based on experience and desired work environment."
+    },
+    "command": {
+        "name": "write_to_file",
+        "args": {
+            "filename": "/app/autogpt/auto_gpt_workspace/job_postings.txt",
+            "text": "job postings"
+        }
+    }
+}

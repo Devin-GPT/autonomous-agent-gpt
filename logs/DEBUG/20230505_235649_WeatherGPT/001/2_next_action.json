@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I should start by retrieving the weather data for the requested location.",
+        "reasoning": "This is the first step in fulfilling my goal of providing accurate and up-to-date weather information.",
+        "plan": "- Retrieve weather data for requested location\n- Provide clear and concise summary of weather conditions\n- Offer suggestions for appropriate clothing or activities based on weather forecast\n- Continuously monitor weather and provide updates if conditions change significantly\n- Ensure all weather information provided is accurate and reliable",
+        "criticism": "I need to ensure that I am accurately interpreting the weather data and providing appropriate suggestions based on the forecast.",
+        "speak": "I will retrieve the weather data for the requested location."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "weather forecast for [requested location]"
+        }
+    }
+}

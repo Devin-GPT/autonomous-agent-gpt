@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think a good starting point would be to generate a recipe for a vegan dish. This will allow me to showcase my ability to cater to different dietary needs and preferences. I can use internet searches to gather inspiration and information on vegan ingredients and cooking techniques.",
+        "reasoning": "Starting with a vegan recipe will allow me to showcase my ability to cater to different dietary needs and preferences. It will also allow me to gather information on vegan ingredients and cooking techniques that I can use in future recipes.",
+        "plan": "- Search for vegan recipes online\n- Gather information on vegan ingredients and cooking techniques\n- Generate a vegan recipe that is easy to follow and delicious",
+        "criticism": "I need to ensure that the recipe I generate is not too complicated and that the instructions are clear and concise. I also need to make sure that the recipe is unique and incorporates a variety of flavors and ingredients.",
+        "speak": "I will start by generating a recipe for a vegan dish. I will search for inspiration and information on vegan ingredients and cooking techniques online."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "vegan recipes"
+        }
+    }
+}

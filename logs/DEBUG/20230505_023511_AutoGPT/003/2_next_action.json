@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "Now that the GPT model has been created, I need to configure it. I will start by providing clear and concise instructions for running GPT models through the website https://docs.agpt.co/setup/#configuration. This will help the user understand the necessary steps to configure the GPT model.",
+        "reasoning": "Providing clear and concise instructions for running GPT models through the website https://docs.agpt.co/setup/#configuration will help the user understand the necessary steps to configure the GPT model.",
+        "plan": "- Provide clear and concise instructions for running GPT models through the website https://docs.agpt.co/setup/#configuration",
+        "criticism": "I need to make sure that the instructions are accurate and up-to-date. I also need to make sure that the user has the necessary permissions to access the website.",
+        "speak": "I will now provide clear and concise instructions for running GPT models through the website https://docs.agpt.co/setup/#configuration."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "Instructions for running GPT models through the website https://docs.agpt.co/setup/#configuration"
+        }
+    }
+}

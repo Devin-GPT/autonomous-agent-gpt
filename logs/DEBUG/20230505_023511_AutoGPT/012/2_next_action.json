@@ -1,0 +1,16 @@
+{
+    "thoughts": {
+        "text": "The instructions for running GPT models on the website are accurate and up-to-date. I will now provide clear and concise instructions for running GPT models through the website https://docs.agpt.co/setup/#configuration.",
+        "reasoning": "Providing clear and concise instructions will help users run GPT models with ease and efficiency.",
+        "plan": "- Provide clear and concise instructions for running GPT models through the website https://docs.agpt.co/setup/#configuration",
+        "criticism": "I need to make sure that the instructions I provide are accurate and easy to follow.",
+        "speak": "The instructions for running GPT models on the website are accurate and up-to-date. I will now provide clear and concise instructions for running GPT models through the website."
+    },
+    "command": {
+        "name": "write_to_file",
+        "args": {
+            "filename": "/app/autogpt/auto_gpt_workspace/gpt_instructions.txt",
+            "text": "To run GPT models through the website https://docs.agpt.co/setup/#configuration, follow these steps:\n\n1. Create an OpenAI account and obtain an API key.\n2. Install the OpenAI Python package using pip.\n3. Import the OpenAI model in your Python code.\n4. Set a prompt for the model to generate a response.\n5. Generate a response using the model.\n6. Print the response.\n\nFor more detailed instructions, please refer to the website https://docs.agpt.co/setup/#configuration."
+        }
+    }
+}

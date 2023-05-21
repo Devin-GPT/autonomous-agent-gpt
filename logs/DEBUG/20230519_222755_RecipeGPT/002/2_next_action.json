@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "It seems like the google command did not return any results. I will try a different search query to see if I can find some vegan recipes. I will also try to be more specific in my search to get better results.",
+        "reasoning": "If the google command did not return any results, it is likely that the search query was too broad or not specific enough. By refining the search query and being more specific, I can increase the chances of finding relevant results.",
+        "plan": "- Refine the search query to be more specific\n- Search for vegan recipes online\n- Gather information on vegan ingredients and cooking techniques\n- Generate a vegan recipe that is easy to follow and delicious",
+        "criticism": "I need to make sure that the search query is specific enough to return relevant results. I also need to ensure that the recipe I generate is unique and incorporates a variety of flavors and ingredients.",
+        "speak": "I will refine the search query to be more specific and try searching for vegan recipes again."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "easy vegan recipes"
+        }
+    }
+}

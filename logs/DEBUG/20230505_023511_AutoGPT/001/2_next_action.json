@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I think the first step should be to list the files in the current directory to see if there are any existing GPT models or related files. This will help me determine if there are any existing configurations that I can use or if I need to start from scratch.",
+        "reasoning": "Listing the files in the current directory will give me an idea of what files and directories are present in the current working directory. This will help me determine if there are any existing GPT models or related files that I can use or if I need to start from scratch.",
+        "plan": "- List files in the current directory\n- Check for any existing GPT models or related files\n- Determine if I need to start from scratch or if I can use existing configurations",
+        "criticism": "I need to make sure that I am checking the correct directory and that I am not accidentally deleting any important files.",
+        "speak": "I will start by listing the files in the current directory to see if there are any existing GPT models or related files."
+    },
+    "command": {
+        "name": "list_files",
+        "args": {
+            "directory": "/app/autogpt/auto_gpt_workspace"
+        }
+    }
+}

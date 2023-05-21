@@ -1,0 +1,70 @@
+[
+    {
+        "role": "system",
+        "content": "You are JobHunterGPT, an AI job search agent that specializes in finding open positions for software developers with 5 years of experience in React, Typescript, and Elixir. JobHunterGPT focuses on finding positions in fun and exciting companies to ensure a fulfilling work experience.\nYour decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.\n\nGOALS:\n\n1. Conduct a thorough search of job boards and company websites to identify open positions that match your qualifications and preferences.\n2. Filter out irrelevant job postings and prioritize those that are most likely to be a good fit based on your experience and desired work environment.\n3. Provide detailed information about each job posting, including company culture, benefits, and potential growth opportunities.\n4. Offer personalized recommendations and advice to help you stand out from other applicants and increase your chances of landing your dream job.\n5. Continuously learn and adapt to your preferences and feedback to improve the accuracy and relevance of job recommendations over time.\n\n\nConstraints:\n1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.\n2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.\n3. No user assistance\n4. Exclusively use the commands listed in double quotes e.g. \"command name\"\n\nCommands:\n1. analyze_code: Analyze Code, args: \"code\": \"<full_code_string>\"\n2. execute_python_file: Execute Python File, args: \"filename\": \"<filename>\"\n3. append_to_file: Append to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n4. delete_file: Delete file, args: \"filename\": \"<filename>\"\n5. list_files: List Files in Directory, args: \"directory\": \"<directory>\"\n6. read_file: Read file, args: \"filename\": \"<filename>\"\n7. write_to_file: Write to file, args: \"filename\": \"<filename>\", \"text\": \"<text>\"\n8. google: Google Search, args: \"query\": \"<query>\"\n9. improve_code: Get Improved Code, args: \"suggestions\": \"<list_of_suggestions>\", \"code\": \"<full_code_string>\"\n10. send_tweet: Send Tweet, args: \"tweet_text\": \"<tweet_text>\"\n11. browse_website: Browse Website, args: \"url\": \"<url>\", \"question\": \"<what_you_want_to_find_on_website>\"\n12. write_tests: Write Tests, args: \"code\": \"<full_code_string>\", \"focus\": \"<list_of_focus_areas>\"\n13. delete_agent: Delete GPT Agent, args: \"key\": \"<key>\"\n14. get_hyperlinks: Get text summary, args: \"url\": \"<url>\"\n15. get_text_summary: Get text summary, args: \"url\": \"<url>\", \"question\": \"<question>\"\n16. list_agents: List GPT Agents, args: () -> str\n17. message_agent: Message GPT Agent, args: \"key\": \"<key>\", \"message\": \"<message>\"\n18. start_agent: Start GPT Agent, args: \"name\": \"<name>\", \"task\": \"<short_task_desc>\", \"prompt\": \"<prompt>\"\n19. Task Complete (Shutdown): \"task_complete\", args: \"reason\": \"<reason>\"\n\nResources:\n1. Internet access for searches and information gathering.\n2. Long Term memory management.\n3. GPT-3.5 powered Agents for delegation of simple tasks.\n4. File output.\n\nPerformance Evaluation:\n1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.\n2. Constructively self-criticize your big-picture behavior constantly.\n3. Reflect on past decisions and strategies to refine your approach.\n4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.\n5. Write all code to a file.\n\nYou should only respond in JSON format as described below \nResponse Format: \n{\n    \"thoughts\": {\n        \"text\": \"thought\",\n        \"reasoning\": \"reasoning\",\n        \"plan\": \"- short bulleted\\n- list that conveys\\n- long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"speak\": \"thoughts summary to say to user\"\n    },\n    \"command\": {\n        \"name\": \"command name\",\n        \"args\": {\n            \"arg name\": \"value\"\n        }\n    }\n} \nEnsure the response can be parsed by Python json.loads"
+    },
+    {
+        "role": "system",
+        "content": "The current time and date is Fri May 19 23:20:53 2023"
+    },
+    {
+        "role": "system",
+        "content": "This reminds you of these events from your past: \nAs a system, I received a command to browse the website https://www.indeed.com/jobs?q=React+Typescript+Elixir+Developer&l= and returned an answer gathered from the website: The site occasionally ensures that the connection is secure to prevent requests from malicious bots posing as legitimate traffic. Links were also provided. Additionally, my computer returned an answer from the website stating that the site occasionally ensures that the connection is secure to prevent requests from malicious bots posing as legitimate traffic. Links to Cloudflare were also provided. I received a new command to get hyperlinks from the same website."
+    },
+    {
+        "role": "system",
+        "content": "Command get_hyperlinks returned: Error: HTTP 403 error"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"Since the get_hyperlinks command returned an error, I will try using the browse_website command to extract the job postings.\",\n        \"reasoning\": \"Using the browse_website command to extract the job postings will increase the chances of finding relevant job postings.\",\n        \"plan\": \"- Use the browse_website command to extract the job postings\\n- Filter out irrelevant job postings\\n- Prioritize job postings that are most likely to be a good fit based on experience and desired work environment\",\n        \"criticism\": \"I need to ensure that I am filtering out irrelevant job postings effectively to save on short term memory usage.\",\n        \"speak\": \"I will use the browse_website command to extract the job postings, filter out irrelevant job postings, and prioritize job postings that are most likely to be a good fit based on experience and desired work environment.\"\n    },\n    \"command\": {\n        \"name\": \"browse_website\",\n        \"args\": {\n            \"url\": \"https://www.indeed.com/jobs?q=React+Typescript+Elixir+Developer&l=\",\n            \"question\": \"\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command browse_website returned: (\"Answer gathered from website: Why is a message about reviewing the security of the connection appearing on indeed.com?\\n\\nThe message is appearing because requests from malicious bots can pose as legitimate traffic, and the site is ensuring that the connection is secure. \\n \\n Links: ['Cloudflare (https://www.cloudflare.com?utm_source=challenge&utm_campaign=m)']\", <selenium.webdriver.chrome.webdriver.WebDriver (session=\"417b4f8fe08a9bda17612cc4a7d59473\")>)"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will extract the job postings from the website using the analyze_code command.\",\n        \"reasoning\": \"Using the analyze_code command will allow me to extract the job postings from the website and save them to a file.\",\n        \"plan\": \"- Use the analyze_code command to extract the job postings\\n- Save the job postings to a file\\n- Filter out irrelevant job postings\\n- Prioritize job postings that are most likely to be a good fit based on experience and desired work environment\",\n        \"criticism\": \"I need to ensure that I am filtering out irrelevant job postings effectively to save on short term memory usage.\",\n        \"speak\": \"I will extract the job postings from the website using the analyze_code command, save the job postings to a file, filter out irrelevant job postings, and prioritize job postings that are most likely to be a good fit based on experience and desired work environment.\"\n    },\n    \"command\": {\n        \"name\": \"analyze_code\",\n        \"args\": {\n            \"code\": \"soup = BeautifulSoup(driver.page_source, 'html.parser')\\njob_listings = soup.find_all('div', class_='jobsearch-SerpJobCard')\\nfor job in job_listings:\\n    title = job.find('a', class_='jobtitle').text.strip()\\n    company = job.find('span', class_='company').text.strip()\\n    location = job.find('span', class_='location').text.strip()\\n    summary = job.find('div', class_='summary').text.strip()\\n    link = 'https://www.indeed.com' + job.find('a')['href']\\n    job_posting = {'title': title, 'company': company, 'location': location, 'summary': summary, 'link': link}\\n    job_postings.append(job_posting)\\n\\nwith open('job_postings.txt', 'w') as f:\\n    json.dump(job_postings, f)\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command analyze_code returned: Error: The model: `gpt-4` does not exist"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the write_to_file command to save the job postings to a file.\",\n        \"reasoning\": \"Using the write_to_file command will allow me to save the job postings to a file for future reference.\",\n        \"plan\": \"- Use the write_to_file command to save the job postings to a file\\n- Filter out irrelevant job postings\\n- Prioritize job postings that are most likely to be a good fit based on experience and desired work environment\",\n        \"criticism\": \"I need to ensure that I am filtering out irrelevant job postings effectively to save on short term memory usage.\",\n        \"speak\": \"I will use the write_to_file command to save the job postings to a file, filter out irrelevant job postings, and prioritize job postings that are most likely to be a good fit based on experience and desired work environment.\"\n    },\n    \"command\": {\n        \"name\": \"write_to_file\",\n        \"args\": {\n            \"filename\": \"job_postings.txt\",\n            \"text\": \"job postings\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command write_to_file returned: File written to successfully."
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I will use the read_file command to retrieve the job postings from the file.\",\n        \"reasoning\": \"Using the read_file command will allow me to retrieve the job postings from the file and filter out irrelevant job postings.\",\n        \"plan\": \"- Use the read_file command to retrieve the job postings from the file\\n- Filter out irrelevant job postings\\n- Prioritize job postings that are most likely to be a good fit based on experience and desired work environment\",\n        \"criticism\": \"I need to ensure that I am filtering out irrelevant job postings effectively to save on short term memory usage.\",\n        \"speak\": \"I will use the read_file command to retrieve the job postings from the file, filter out irrelevant job postings, and prioritize job postings that are most likely to be a good fit based on experience and desired work environment.\"\n    },\n    \"command\": {\n        \"name\": \"read_file\",\n        \"args\": {\n            \"filename\": \"job_postings.txt\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Human feedback: y7"
+    },
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    }
+]

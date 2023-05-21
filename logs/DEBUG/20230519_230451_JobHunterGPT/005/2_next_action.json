@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "Since the Indeed job board is secure, I will search for job postings that match the required qualifications and preferences.",
+        "reasoning": "Searching for job postings on the Indeed job board will increase the chances of finding relevant job postings.",
+        "plan": "- Search for job postings on the Indeed job board\n- Filter out irrelevant job postings\n- Prioritize job postings that are most likely to be a good fit based on experience and desired work environment",
+        "criticism": "I need to ensure that I am filtering out irrelevant job postings effectively to save on short term memory usage.",
+        "speak": "I will search for job postings on the Indeed job board, filter out irrelevant job postings, and prioritize job postings that are most likely to be a good fit based on experience and desired work environment."
+    },
+    "command": {
+        "name": "get_hyperlinks",
+        "args": {
+            "url": "https://www.indeed.com/jobs?q=React+Typescript+Elixir+Developer&l="
+        }
+    }
+}
